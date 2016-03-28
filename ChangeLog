@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+0.4.1
+-----
+
+* Fix event list sorting
+* Add OSC command and enable more than one arguements
+* Add cluster check and recover into CLI
+* Updated from global requirements
+
 0.4.0
 -----
 
@@ -62,6 +70,7 @@ CHANGES
 * Add OpenstackClient plugin for cluster profile list
 * Updated from global requirements
 * Add OpenstackClient plugin for cluster profile show
+* Add node check and recover into CLI
 * Add the unit test for utils module
 * Apply list_formatter on two properties
 * Handle ResourceNotFound when resource is not found
@@ -73,8 +82,8 @@ CHANGES
 * Updated from global requirements
 * Change 'status_code' to 'http_status' to parse SDK's exception
 
-0.3
----
+0.3.0
+-----
 
 * Remove argparse from requirements
 * Updated from global requirements
