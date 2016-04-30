@@ -46,3 +46,7 @@ traceback2-python
 unittest2-python
 virtualenv
 warlock-python
+docutils
+extras-python
+Jinja2
+extras

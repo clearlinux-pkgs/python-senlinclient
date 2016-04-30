@@ -4,7 +4,7 @@
 #
 Name     : python-senlinclient
 Version  : 0.4.1
-Release  : 3
+Release  : 4
 URL      : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-0.4.1.tar.gz
 Source0  : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-0.4.1.tar.gz
 Summary  : OpenStack Clustering API Client Library
@@ -12,11 +12,15 @@ Group    : Development/Tools
 License  : Apache-2.0
 Requires: python-senlinclient-bin
 Requires: python-senlinclient-python
+BuildRequires : Jinja2
 BuildRequires : PyYAML-python
 BuildRequires : Sphinx-python
 BuildRequires : cmd2-python
 BuildRequires : coverage-python
 BuildRequires : discover-python
+BuildRequires : docutils
+BuildRequires : extras
+BuildRequires : extras-python
 BuildRequires : futures-python
 BuildRequires : hacking
 BuildRequires : jsonpatch-python
