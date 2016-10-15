@@ -1,6 +1,86 @@
 CHANGES
 =======
 
+1.0.0
+-----
+
+* Release notes for newton-3 milestone
+* Clarify senlin CLI deprecation message
+* Fix output from cluster/node delete
+* Revise params of 'receiver create' command
+* Remove *openstack/common* from flake8 excclude list in tox.ini
+* OSC plugin command for cluster-run
+* Updated from global requirements
+* Fix "openstack cluster policy binding list <cluster>"
+* Fix cluster-policy-list
+* Add 'cluster-run' command
+* Updated from global requirements
+* Updated from global requirements
+* Fix get_node
+* Fix _show_node error
+* Remove mox3 in test-requirement.txt of senlinclient
+* py3:Rmove six.iteritems/iterkeys in python-senlinclient
+* Imported Translations from Zanata
+* Add policy validate operation to senlinclient
+* Add profile validate operation to senlinclient
+* Imported Translations from Zanata
+* Reorder required parameters
+* Remove 'ProfileAction' and related arguments
+* Remove local cached version of Resource class
+* Add cluster_collect support
+* Add support to micro-version
+* Updated from global requirements
+* Remove discover from test-requirements
+* Fix typo
+* Fix nodes display in cluster-show
+* Update senlinclient for new sdk version
+* Updated from global requirements
+* Updated from global requirements
+* Add Python 3.5 classifier and venv
+* Updated from global requirements
+* Prints  '-' instead of 'None' when data is None
+* Updated from global requirements
+* Updated from global requirements
+* Imported Translations from Zanata
+* Delete extra space
+* Use osc_lib instead of cliff
+* Updated from global requirements
+* Use osc-lib instead of openstackclient
+* Enhance message related to OS_PROJECT_DOMAIN_NAME
+* Imported Translations from Zanata
+* Imported Translations from Zanata
+* Fix openstack cluster resize
+* Remove unused POT file
+
+0.5.0
+-----
+
+* Added release notes for a new release
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Add reno for release notes management
+* Trival fix: Update README
+* Updated from global requirements
+* Updated from global requirements
+* Correct some typos
+* Updated from global requirements
+* Pramater doesn't align to comments
+* Removed the invalid link for Module Index
+* Add link to API doc in client module
+* Revert "Remove senlin CLI commands"
+* Support more parameters for senlinclient creation
+* Rename cluster scaling command
+* Remove senlin CLI commands
+* Refactor osc support
+* Add deprecation warnings for senlin commands
+* Add OSC command for senlin node-check/recover
+* Spelling mistakes on 'Clustering service command-line client' page
+
 0.4.1
 -----
 
@@ -228,8 +308,8 @@ CHANGES
 
 * v0.2 branch
 
-v0.2
-----
+0.1.0
+-----
 
 * Revise support to profile-create/show
 * Add short Id support to event list
