@@ -4,7 +4,7 @@
 #
 Name     : python-senlinclient
 Version  : 1.0.0
-Release  : 10
+Release  : 11
 URL      : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.0.0.tar.gz
 Source0  : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.0.0.tar.gz
 Summary  : OpenStack Clustering API Client Library
@@ -23,6 +23,7 @@ BuildRequires : extras
 BuildRequires : extras-python
 BuildRequires : futures-python
 BuildRequires : hacking
+BuildRequires : imagesize-python
 BuildRequires : jsonpatch-python
 BuildRequires : jsonpointer-python
 BuildRequires : jsonschema-python
