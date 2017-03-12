@@ -6,7 +6,7 @@
 #
 Name     : python-senlinclient
 Version  : 1.0.0
-Release  : 12
+Release  : 13
 URL      : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.0.0.tar.gz
 Source0  : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.0.0.tar.gz
 Source99 : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.0.0.tar.gz.asc
@@ -26,59 +26,12 @@ Requires: pbr
 Requires: python-heatclient
 Requires: requests
 Requires: six
-BuildRequires : Jinja2
-BuildRequires : PyYAML-python
-BuildRequires : Sphinx-python
-BuildRequires : cmd2-python
 BuildRequires : configparser-python
-BuildRequires : coverage-python
-BuildRequires : discover-python
-BuildRequires : docutils
-BuildRequires : extras
-BuildRequires : extras-python
-BuildRequires : futures-python
-BuildRequires : hacking
-BuildRequires : jsonpatch-python
-BuildRequires : jsonpointer-python
-BuildRequires : jsonschema-python
-BuildRequires : msgpack-python-python
-BuildRequires : netaddr
-BuildRequires : netifaces-python
-BuildRequires : openstacksdk-python
-BuildRequires : os-client-config-python
-BuildRequires : oslosphinx-python
-BuildRequires : oslotest-python
 BuildRequires : pbr
 BuildRequires : pip
-BuildRequires : pluggy
-BuildRequires : py-python
-BuildRequires : pyparsing-python
-BuildRequires : pyrsistent-python
-BuildRequires : pytest
-BuildRequires : python-cinderclient-python
 BuildRequires : python-dev
-BuildRequires : python-glanceclient-python
-BuildRequires : python-heatclient-python
-BuildRequires : python-mimeparse-python
-BuildRequires : python-mock-python
-BuildRequires : python-novaclient-python
-BuildRequires : python-openstackclient-python
 BuildRequires : python3-dev
-BuildRequires : requests-mock-python
-BuildRequires : requests-python
 BuildRequires : setuptools
-BuildRequires : simplejson
-BuildRequires : six
-BuildRequires : six-python
-BuildRequires : testrepository-python
-BuildRequires : testscenarios
-BuildRequires : testtools
-BuildRequires : testtools-python
-BuildRequires : tox
-BuildRequires : traceback2-python
-BuildRequires : unittest2-python
-BuildRequires : virtualenv
-BuildRequires : warlock-python
 
 %description
 Python bindings to the Senlin Clustering API
@@ -105,12 +58,12 @@ python components for the python-senlinclient package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1489036578
+export SOURCE_DATE_EPOCH=1489283912
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
-export SOURCE_DATE_EPOCH=1489036578
+export SOURCE_DATE_EPOCH=1489283912
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
