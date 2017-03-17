@@ -1,6 +1,123 @@
 CHANGES
 =======
 
+1.2.0
+-----
+
+* Release note for python-senlinclient 1.2.0
+* Fix senlin cluster-policy-detach cannot disable
+* Fix cluster_collect interface
+* Updated from global requirements
+* Add deprecation of cluster-run cli
+* Updated from global requirements
+* Add missing requirements
+* Updated from global requirements
+* Remove unnecessary coding format in the head of files
+* Trivial: Modify the description of policy validate
+* Updated from global requirements
+* Trivial: Modify the description of profile validate
+* Revert "Revert "Revert "Fix `openstack  cluster profile validate` bug"""
+* Fix `openstack  cluster policy show` bug
+* Fix `openstack  cluster policy vaildate` bug
+* Revert "Revert "Fix `openstack  cluster profile validate` bug""
+* Revert "Revert "Get project_id and user_id when show profile""
+* Add Constraints support
+* Revert "Fix `openstack  cluster profile validate` bug"
+* Revise help string profile list
+* Revert "Get project_id and user_id when show profile"
+* Enhance the parameter check for "path" in cluster collect
+* Fix `openstack  cluster profile validate` bug
+* Client support for node replace
+* Get project_id and user_id when show profile
+* Updated from global requirements
+* Add metadata clean help
+* Delete pbr generated files
+* Fix import method to follow community guideline
+
+1.1.0
+-----
+
+* Release note for python-senlinclient 1.1.0
+* Fix resource update issues
+* Correct deprecation of scale-in and scale-out cli
+* Show team and repo badges on README
+* Fix error in policy-show
+* Updated from global requirements
+* Fix project_id show in 'senlin xyz_list -g'
+* Delete python bytecode file
+* Trivial: Fix a typo in cluster-run's error message
+* Fix error in cluster collect
+* Point out valid filter keys in `openstack cluster member list`
+* Fix cluster_id field when listing events
+* key=value should be key2=value2
+* Revise the help message of cluster-collect
+* Revise the help info of cluster collect
+* Revise key1=value to key1=value1
+* Support  "global_project" arguments for action-list
+* Point out valid sort keys in `openstack cluster member list`
+* Revise 'openstack cluster node members list'
+* The output of action list filtered by "target" returns empty
+* The output of event-list by filter "cluster_id" return empty
+* Modify development doc url in CONTRIBUTING.rst
+* Updated from global requirements
+* Revise the help message of policy binding list
+* Add "cluster_id" column to  `openstack cluster event list`
+* Add sort key "oid" in event list
+* Remove unsupported sort key "user"
+* Updated from global requirements
+* Revise "enabled" related code in ClusterPolicyUpdate
+* cluster policy attach cannot work
+* policy binding update cannot work
+* Policy binding attach cannot work
+* Support xyz_update purging metadata
+* Add filters "policy_type" and "policy_name" for policy binding list
+* Rework do_action_list function's "full_id" handling
+* Updated from global requirements
+* Fix target ID display when listing actions
+* Add filter "is_enabled" for policy binding list
+* Updated from global requirements
+* Show project_id field when xyz-list with global-project
+* Add AUTHORS and ChangeLog into gitignore
+* All dictionary options need be a string
+* profile's name also can be use in some commands
+* Add receiver type instruction
+* Updated from global requirements
+* Rework take_action function in class ListAction
+* Fix error in "action list"
+* Modify several marker's help
+* Change osprofiler option "--profile" to "--os-profile"
+* Add plug-in summary for osc doc
+* action-list's given id not event id
+* Change the type of the parameter "enabled" to boolean
+* event-list cannot display correctly according to the sort option
+* Fix the incorrect version and release details
+* Enable release notes translation
+* Changed the link to home-page
+* Fix list of event with timestamp field
+* Updated from global requirements
+* Fix doc build if git is absent
+* `openstack cluster event list --help` bug
+* revise the "cluster-policy-attach"
+* Fix help msg of node-check and node-recover
+* Updated from global requirements
+* Replace 'MagicMock' with 'Mock'
+* Fix error in build-info
+* Fix error in action list
+* Fix 'type_name' in `openstack cluster profile list`
+* Fix profile list
+* Fix `openstack cluster event list` bug
+* Fix `openstack cluster action list` bug
+* Fix error in do_profile_type_list
+* Profile list can not display the "type" column
+* Make shell main() specify return value in exit code
+* fix indentation of reno toctree
+* Remove six.moves module
+* Show 'dependents' property in node details
+* Fix receiver list
+* Updated from global requirements
+* Update reno for stable/newton
+* senlin profile-create has no argument -t
+
 1.0.0
 -----
 
@@ -162,8 +279,8 @@ CHANGES
 * Updated from global requirements
 * Change 'status_code' to 'http_status' to parse SDK's exception
 
-0.3.0
------
+0.3
+---
 
 * Remove argparse from requirements
 * Updated from global requirements
