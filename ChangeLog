@@ -1,6 +1,43 @@
 CHANGES
 =======
 
+1.3.0
+-----
+
+* Updated from global requirements
+* Updated from global requirements
+* Revise command reminder when we run `openstack cluster resize`
+* Revise command reminder when we run `senlin cluster-resize`
+* Remove log translations
+* Updated from global requirements
+* Param "response" is not used any more in  python-senlinclient/senlinclient/tests/unit/v1/test_build_info.py
+* delete bash_completion in subcommand
+* Support check before do node-recover action
+* Support profile-only to cluster update
+* Fix hacking requirement for testing
+* Updated from global requirements
+* Using fixtures.MockPatch instead of mockpatch.Patch
+* The python 3.4 support is removed
+* Initial test hooks for functional test
+* Fixed warnings when building docs
+* Fix cluster update failed problem
+* Avoid import internal classes from SDK (3)
+* Avoid import internal classes from SDK (2)
+* Avoid import internal classes from SDK
+* Update imoprt order
+* Replace six.itervalues with dict.values()
+* Enable coverage report in console output
+* Updated from global requirements
+* Print support status while listing policy types
+* Support status output for profile type list
+* Add oslo_debug_helper to tox.ini
+* Remove a py34 environment from tox
+* Replaces yaml.load() with yaml.safe_load()
+* Revert "Revert "Revert "Revert "Fix `openstack  cluster profile validate` bug""""
+* Fix SDK version problem
+* Updated from global requirements
+* Update reno for stable/ocata
+
 1.2.0
 -----
 
@@ -12,7 +49,11 @@ CHANGES
 * Updated from global requirements
 * Add missing requirements
 * Updated from global requirements
+* Client support for "destroy_after_deletion" in cluster del nodes
+* Add filter "user_id" for receiver list
 * Remove unnecessary coding format in the head of files
+* Add parameter in CLUSTER_DEL_NODES action
+* Add user_id in receiver list
 * Trivial: Modify the description of policy validate
 * Updated from global requirements
 * Trivial: Modify the description of profile validate
