@@ -1,6 +1,41 @@
 CHANGES
 =======
 
+1.8.0
+-----
+
+* Rocky releasenotes for python-senlinclient
+* Zuul enable senlinclient function check
+* Add cluster and receiver function test
+* Add function test path to test\_path
+* Switch to stestr
+* Change CURRENT\_API\_VERSION to "1.10"
+* fix tox python3 overrides
+* pypy is no longer supported by oslo libraries
+* Fix docs cli authorize environment variables
+* Updated from global requirements
+* Follow the new PTI for document build
+* add lower-constraints job
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Add cli and contributor documents file
+* Fix request return resp not exist 'action' key
+* Updated from global requirements
+* Add node functional test and fix type list test
+* Imported Translations from Zanata
+* Remove run\_tests.sh
+* Updated from global requirements
+* Fix request version returns value handling error
+* Retrieve profile type by type name and version
+* Change event and node module describe error
+* Imported Translations from Zanata
+* Add profile, policy functional test
+* Remove unnecessary definition
+* Zuul: Remove project name
+* Update reno for stable/queens
+* Add back client module
+
 1.7.0
 -----
 
@@ -552,8 +587,8 @@ CHANGES
 
 * v0.2 branch
 
-0.1.0
------
+v0.2
+----
 
 * Revise support to profile-create/show
 * Add short Id support to event list
