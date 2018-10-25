@@ -1,6 +1,19 @@
 CHANGES
 =======
 
+1.9.0
+-----
+
+* Don't quote {posargs} in tox.ini
+* Add senlinclient support bandit test
+* Enable cluster profile only and replace function test
+* add python 3.6 unit test job
+* switch documentation job to new PTI
+* import zuul job settings from project-config
+* Update python-senlinclient to use current openstacksdk
+* Imported Translations from Zanata
+* Update reno for stable/rocky
+
 1.8.0
 -----
 
@@ -441,8 +454,8 @@ CHANGES
 * Updated from global requirements
 * Change 'status\_code' to 'http\_status' to parse SDK's exception
 
-0.3.0
------
+0.3
+---
 
 * Remove argparse from requirements
 * Updated from global requirements
