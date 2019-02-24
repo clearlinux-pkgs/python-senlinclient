@@ -6,7 +6,7 @@
 #
 Name     : python-senlinclient
 Version  : 1.9.0
-Release  : 21
+Release  : 22
 URL      : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.9.0.tar.gz
 Source0  : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.9.0.tar.gz
 Source99 : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.9.0.tar.gz.asc
@@ -18,9 +18,7 @@ Requires: python-senlinclient-python = %{version}-%{release}
 Requires: python-senlinclient-python3 = %{version}-%{release}
 Requires: Babel
 Requires: PyYAML
-Requires: Sphinx
 Requires: keystoneauth1
-Requires: openstackdocstheme
 Requires: openstacksdk
 Requires: osc-lib
 Requires: oslo.i18n
@@ -28,15 +26,17 @@ Requires: oslo.serialization
 Requires: oslo.utils
 Requires: pbr
 Requires: python-heatclient
-Requires: reno
 Requires: requests
 Requires: six
 BuildRequires : buildreq-distutils3
 BuildRequires : pbr
 
 %description
+========================
 Team and repository tags
-        ========================
+========================
+.. image:: https://governance.openstack.org/tc/badges/python-senlinclient.svg
+:target: https://governance.openstack.org/tc/reference/tags/index.html
 
 %package license
 Summary: license components for the python-senlinclient package.
@@ -72,7 +72,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1541273015
+export SOURCE_DATE_EPOCH=1551035922
+export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
 %install
