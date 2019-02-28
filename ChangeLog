@@ -1,6 +1,18 @@
 CHANGES
 =======
 
+1.10.0
+------
+
+* Add Stein release notes
+* Bump openstacksdk to 0.24.0
+* Fix getting action id in Location header
+* Use template for lower-constraints
+* Fix calls to functions removed from openstacksdk
+* Change openstack-dev to openstack-discuss
+* Add Python 3.6 classifier to setup.cfg
+* Fix \_get\_config\_from\_profile key building
+
 1.9.0
 -----
 
@@ -454,8 +466,8 @@ CHANGES
 * Updated from global requirements
 * Change 'status\_code' to 'http\_status' to parse SDK's exception
 
-0.3
----
+0.3.0
+-----
 
 * Remove argparse from requirements
 * Updated from global requirements
