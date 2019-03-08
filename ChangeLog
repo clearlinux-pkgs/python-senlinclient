@@ -1,12 +1,20 @@
 CHANGES
 =======
 
+1.10.1
+------
+
+* Use latest senlin microversion for Stein
+* Update json module to jsonutils
+
 1.10.0
 ------
 
 * Add Stein release notes
+* add python 3.7 unit test job
 * Bump openstacksdk to 0.24.0
 * Fix getting action id in Location header
+* Update hacking version
 * Use template for lower-constraints
 * Fix calls to functions removed from openstacksdk
 * Change openstack-dev to openstack-discuss
@@ -32,6 +40,7 @@ CHANGES
 * Rocky releasenotes for python-senlinclient
 * Zuul enable senlinclient function check
 * Add cluster and receiver function test
+* Update client to account for 409 error in cluster actions
 * Add function test path to test\_path
 * Switch to stestr
 * Change CURRENT\_API\_VERSION to "1.10"
@@ -466,8 +475,8 @@ CHANGES
 * Updated from global requirements
 * Change 'status\_code' to 'http\_status' to parse SDK's exception
 
-0.3.0
------
+0.3
+---
 
 * Remove argparse from requirements
 * Updated from global requirements
