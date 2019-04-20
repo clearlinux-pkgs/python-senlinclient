@@ -6,7 +6,7 @@
 #
 Name     : python-senlinclient
 Version  : 1.10.1
-Release  : 24
+Release  : 25
 URL      : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.10.1.tar.gz
 Source0  : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.10.1.tar.gz
 Source99 : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-1.10.1.tar.gz.asc
