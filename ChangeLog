@@ -1,6 +1,20 @@
 CHANGES
 =======
 
+1.11.0
+------
+
+* Update api-ref location
+* Add Python 3 Train unit tests
+* Switch to the new canonical constraints URL on master
+* Fix uint test test\_json\_format and Solve pep8 msgfmt error
+* Replace git.openstack.org URLs with opendev.org URLs
+* OpenDev Migration Patch
+* Dropping the py35 testing
+* Replace openstack.org git:// URLs with https://
+* Imported Translations from Zanata
+* Update master for stable/stein
+
 1.10.1
 ------
 
@@ -475,8 +489,8 @@ CHANGES
 * Updated from global requirements
 * Change 'status\_code' to 'http\_status' to parse SDK's exception
 
-0.3
----
+0.3.0
+-----
 
 * Remove argparse from requirements
 * Updated from global requirements
