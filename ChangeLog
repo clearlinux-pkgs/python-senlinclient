@@ -1,6 +1,16 @@
 CHANGES
 =======
 
+2.0.0
+-----
+
+* Change default API version to 1.14
+* Drop python 2.7 support and testing
+* Add action update command
+* Add support for node tainted field
+* Update master for stable/train
+* Return meta-data field for events list
+
 1.11.0
 ------
 
