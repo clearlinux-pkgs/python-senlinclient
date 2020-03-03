@@ -6,7 +6,7 @@
 #
 Name     : python-senlinclient
 Version  : 2.0.0
-Release  : 30
+Release  : 31
 URL      : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-2.0.0.tar.gz
 Source0  : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-2.0.0.tar.gz
 Source1  : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-2.0.0.tar.gz.asc
@@ -46,8 +46,21 @@ BuildRequires : six
 ========================
 Team and repository tags
 ========================
+
 .. image:: https://governance.openstack.org/tc/badges/python-senlinclient.svg
-:target: https://governance.openstack.org/tc/reference/tags/index.html
+    :target: https://governance.openstack.org/tc/reference/tags/index.html
+
+.. Change things from this point on
+
+OpenStackClient Plugin for Senlin Clustering Service
+====================================================
+
+This is a client library for Senlin built on the Senlin clustering API. It
+provides a plugin for the openstackclient command-line tool.
+
+Development takes place via the usual OpenStack processes as outlined in the
+`developer guide <https://docs.openstack.org/infra/manual/developers.html>`_.
+The master repository is in `Git <https://opendev.org/openstack/python-senlinclient>`_.
 
 %package license
 Summary: license components for the python-senlinclient package.
@@ -70,6 +83,7 @@ python components for the python-senlinclient package.
 Summary: python3 components for the python-senlinclient package.
 Group: Default
 Requires: python3-core
+Provides: pypi(python-senlinclient)
 
 %description python3
 python3 components for the python-senlinclient package.
@@ -84,7 +98,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1581609003
+export SOURCE_DATE_EPOCH=1583214781
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
