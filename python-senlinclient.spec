@@ -6,7 +6,7 @@
 #
 Name     : python-senlinclient
 Version  : 2.0.0
-Release  : 31
+Release  : 32
 URL      : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-2.0.0.tar.gz
 Source0  : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-2.0.0.tar.gz
 Source1  : http://tarballs.openstack.org/python-senlinclient/python-senlinclient-2.0.0.tar.gz.asc
@@ -43,24 +43,8 @@ BuildRequires : requests
 BuildRequires : six
 
 %description
-========================
 Team and repository tags
-========================
-
-.. image:: https://governance.openstack.org/tc/badges/python-senlinclient.svg
-    :target: https://governance.openstack.org/tc/reference/tags/index.html
-
-.. Change things from this point on
-
-OpenStackClient Plugin for Senlin Clustering Service
-====================================================
-
-This is a client library for Senlin built on the Senlin clustering API. It
-provides a plugin for the openstackclient command-line tool.
-
-Development takes place via the usual OpenStack processes as outlined in the
-`developer guide <https://docs.openstack.org/infra/manual/developers.html>`_.
-The master repository is in `Git <https://opendev.org/openstack/python-senlinclient>`_.
+        ========================
 
 %package license
 Summary: license components for the python-senlinclient package.
@@ -83,7 +67,20 @@ python components for the python-senlinclient package.
 Summary: python3 components for the python-senlinclient package.
 Group: Default
 Requires: python3-core
-Provides: pypi(python-senlinclient)
+Provides: pypi(python_senlinclient)
+Requires: pypi(babel)
+Requires: pypi(keystoneauth1)
+Requires: pypi(openstacksdk)
+Requires: pypi(osc_lib)
+Requires: pypi(oslo.i18n)
+Requires: pypi(oslo.serialization)
+Requires: pypi(oslo.utils)
+Requires: pypi(pbr)
+Requires: pypi(prettytable)
+Requires: pypi(python_heatclient)
+Requires: pypi(pyyaml)
+Requires: pypi(requests)
+Requires: pypi(six)
 
 %description python3
 python3 components for the python-senlinclient package.
@@ -98,8 +95,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583214781
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583542237
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
