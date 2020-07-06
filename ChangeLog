@@ -1,6 +1,18 @@
 CHANGES
 =======
 
+2.1.0
+-----
+
+* Switch to newer openstackdocstheme and reno versions
+* Remove all usage of six library
+* Bump default tox env from py37 to py38
+* Add py38 package metadata
+* Use unittest.mock instead of third party mock
+* Add Python3 victoria unit tests
+* Update master for stable/ussuri
+* Cleanup py27 support
+
 2.0.1
 -----
 
@@ -504,8 +516,8 @@ CHANGES
 * Updated from global requirements
 * Change 'status\_code' to 'http\_status' to parse SDK's exception
 
-0.3.0
------
+0.3
+---
 
 * Remove argparse from requirements
 * Updated from global requirements
