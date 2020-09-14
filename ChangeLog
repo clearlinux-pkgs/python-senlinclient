@@ -1,10 +1,20 @@
 CHANGES
 =======
 
+2.1.1
+-----
+
+* Native Zuul v3 port of the legacy functional job
+* [goal] Migrate testing to ubuntu focal
+* drop mock from lower-constraints
+* Stop to use the \_\_future\_\_ module
+
 2.1.0
 -----
 
 * Switch to newer openstackdocstheme and reno versions
+* Remove translation sections from setup.cfg
+* Update hacking for Python3
 * Remove all usage of six library
 * Bump default tox env from py37 to py38
 * Add py38 package metadata
@@ -516,8 +526,8 @@ CHANGES
 * Updated from global requirements
 * Change 'status\_code' to 'http\_status' to parse SDK's exception
 
-0.3
----
+0.3.0
+-----
 
 * Remove argparse from requirements
 * Updated from global requirements
